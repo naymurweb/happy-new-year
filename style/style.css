@@ -168,3 +168,28 @@ p {
 .offer-content2 p {
   margin: 18px 0 45px 0;
 }
+
+/* holiday-sale */
+.holiday-sale {
+  text-align: center;
+  margin: 120px 0;
+}
+.holiday-content {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.holiday-content h1 {
+  margin: 18px 0 30px 0;
+}
+
+.holiday-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  background-image: url("../images/2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
