@@ -86,27 +86,64 @@ p {
   margin-top: 45px;
 }
 
- /* midnight party banner  */
- .party-banner{
+/* midnight party banner  */
+.party-banner {
   margin: 130px 0;
   padding: 120px 0;
   border-radius: 16px;
-  background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Vectorrr.png');
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../images/Vectorrr.png");
   color: white;
   padding-left: 125px;
-
- }
- .party-banner p{
+}
+.party-banner p {
   margin: 24px 0 48px 0;
   color: rgba(255, 255, 255, 0.8);
- }
+}
 
- .party-banner button{
+.party-banner button {
   font-size: 20px;
   font-weight: 700;
   color: white;
   background-color: transparent;
-  border: none; 
+  border: none;
   cursor: pointer;
   text-transform: uppercase;
- }
+}
+
+/* party location */
+.party-location {
+  text-align: center;
+  margin: 120px 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 0;
+  border-radius: 16px;
+}
+
+.party-location span {
+  color: #ff0000;
+}
+.party-location h4 {
+  margin-bottom: 10px;
+}
+
+.party-location button {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 20px;
+  margin-top: 45px;
+  border-radius: 8px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
