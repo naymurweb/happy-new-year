@@ -213,3 +213,48 @@ p {
   gap: 25px;
   margin-top: 45px;
 }
+
+/* footer */
+
+.footer {
+  background: rgb(7, 2, 17);
+  color: rgb(255, 255, 255);
+  padding: 120px 0;
+}
+
+.footer-container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.footer-content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content1 p {
+  color: rgb(255, 255, 255);
+}
+
+.footer-content1 .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-content1 .contact div {
+  display: flex;
+  gap: 18px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 95px 0;
+}
+
+.icon.img {
+  width: 64px;
+}
