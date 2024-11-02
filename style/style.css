@@ -193,3 +193,23 @@ p {
   background-position: bottom;
   background-size: contain;
 }
+
+/* portfolio  */
+
+.portfolio {
+  margin: 120px 0;
+}
+
+.portfolio-content h2 {
+  margin: 16px 0 22px 0;
+}
+.image-container img {
+  width: 400px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 45px;
+}
